@@ -90,7 +90,7 @@ body{
     max-width: 1000px;
     overflow: hidden;
     overflow-x:hidden ;
-    margin: auto;
+    margin: 45px auto;
     padding: 0 0 80px 0;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, .3);
     transform: translateX(400%);
@@ -139,6 +139,41 @@ body{
     text-align: justify;
     margin-bottom: 20px;
 }
+.content-cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card i{
+    margin: 30px 0 20px 0;
+    color: #0008ff;
+    font-size: 50px;
+}
+
+.card p{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
 
 @media screen and (max-width:400px){
     .titulo,
