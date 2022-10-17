@@ -139,3 +139,42 @@ body{
     text-align: justify;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width:400px){
+    .titulo,
+    .textos-hero h1{
+        font-size: 30px;
+    }
+    .left,
+    .right{
+        font-size: 30px;
+    }
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .card{
+        height: 380px;
+    }
+    .card-equipo{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .website .contenedor-textos-main{
+        margin-bottom: 30px;
+        text-align: center;
+        justify-content: center;
+        
+        
+    }
+
+    .website .wave-contenedor{
+
+        width: 90%;
+        margin-bottom: 20px;
+
+    }
+
+}
