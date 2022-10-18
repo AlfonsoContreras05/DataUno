@@ -295,6 +295,12 @@ footer{
     text-align: center;
 }
 /* Mapa */
+.map-form{
+    display: flex;
+    /* margin: 0 auto; */
+    text-align: center;
+    align-items: center;
+}
 .mapa{
     margin: 35px ;
     display: flex;
@@ -304,12 +310,8 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.map-form{
-    display: flex;
-    /* margin: 0 auto; */
-    text-align: center;
-    align-items: center;
-}
+
+
 /* Formulario */
 #wrapper {
 
