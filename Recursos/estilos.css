@@ -17,13 +17,14 @@ body{
 
 @font-face {
     font-family: OriginTech ;
-    src: url(/fonts/OriginTech\ personal\ use.otf);
+    /* src: url(/fonts/OriginTech\ personal\ use.otf); */
+    src: url(/fonts/OriginTech\ personal\ use.ttf);
     font-style: normal;
     font-weight: normal;
 }
 .Data{
     font-family: OriginTech ;
-    src: url(./recursos/fonts/OriginTech\ personal\ use.otf);
+    src: url(/fonts/OriginTech\ personal\ use.ttf);
     font-style: italic;
     font-weight: normal;
 
@@ -32,7 +33,7 @@ body{
 }
 .Uno{
     font-family: OriginTech ;
-    src: url(./recursos/fonts/OriginTech\ personal\ use.otf);
+    src: url(/fonts/OriginTech\ personal\ use.ttf);
     font-style: italic ;
     font-weight: normal;
     color: blue;
