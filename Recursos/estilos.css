@@ -17,13 +17,13 @@ body{
 
 @font-face {
     font-family: OriginTech ;
-    src: url(/fonts/OriginTech\ personal\ use.ttf);
+    src: url(/fonts/OriginTech\ personal\ use.otf);
     font-style: normal;
     font-weight: normal;
 }
 .Data{
     font-family: OriginTech ;
-    src: url(./recursos/fonts/OriginTech\ personal\ use.ttf);
+    src: url(./recursos/fonts/OriginTech\ personal\ use.otf);
     font-style: italic;
     font-weight: normal;
 
@@ -32,7 +32,7 @@ body{
 }
 .Uno{
     font-family: OriginTech ;
-    src: url(./recursos/fonts/OriginTech\ personal\ use.ttf);
+    src: url(./recursos/fonts/OriginTech\ personal\ use.otf);
     font-style: italic ;
     font-weight: normal;
     color: blue;
@@ -53,6 +53,7 @@ body{
  }
  
  .textos-hero{
+    
      height: 350px;
      color: #fff;
      display: flex;
@@ -62,7 +63,7 @@ body{
  }
  
  .textos-hero h1{
-     font-size: 60px;
+     font-size: 200px;
  }
  
  .textos-hero p{
