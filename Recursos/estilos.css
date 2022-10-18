@@ -99,6 +99,30 @@ body{
     transform: translateX(400%);
     transition: transform 1s ease;
 }
+.wave-contenedor-1{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    overflow-x:hidden ;
+    margin: 45px auto;
+    padding: 0 0 10px 0;
+    border-radius: 15px ;
+    border: 2px solid black;
+    
+}
+.contenedor-textos-main-1{
+    width: 85%;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+.main-1{
+    font-family: OriginTech ;
+    src: url(./recursos/fonts/OriginTech\ personal\ use.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
 .wave-contenedor:nth-last-of-type(even){
     transform: translateX(-400%);
 }
@@ -109,12 +133,26 @@ body{
 .contenedor{
     padding: 80px 0;
 }
+.contenedor-banner{
+    padding: 80px 0;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px 0;
+    justify-content: center;
+    text-align: center;
+    
+}
 
 .titulo{
     font-weight: 300;
     font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
+    font-family: OriginTech ;
+    src: url(./recursos/fonts/OriginTech\ personal\ use.ttf);
+    font-style: italic;
+    font-weight: normal;
+
 }
 
 .titulo.left{
@@ -141,6 +179,8 @@ body{
 .parrafo{
     text-align: justify;
     margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
 }
 
 /* contenido servicios */
@@ -178,8 +218,83 @@ body{
     font-size: 25px;
     margin-bottom: 10px;
 }
+/* trail banner */
+.info{
+    background: radial-gradient(circle, rgba(63,94,251,1) 34%, rgba(32,70,253,1) 49%, rgba(0,44,255,1) 76%);
+    color: #fff;
+}
 
 
+
+
+/* Footer */
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+.contenedor-iconos-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.icono-social{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid silver;
+    background-image: url(../imagenes/FacebookBlanco.png);
+    background-position:  center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+.icono-social:hover{
+    background-color: black;
+    filter: invert(1);
+}
+.icono-social:nth-of-type(2){
+    background-image: url(../imagenes/InstagramBlanco.png);
+}
+.icono-social:nth-of-type(3){
+    background-image: url(../imagenes/LinkedinBlanco.png);
+}
+.icono-social:nth-of-type(4){
+    background-image: url(../imagenes/TwitterBlanco.png);
+}
+.contenedor-menu-footer{
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu-item:hover{
+    opacity: 1;
+}
+.copyright{
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+}
+/* Responsive design */
 
 @media screen and (max-width:800px){
     .textos-hero h1{
