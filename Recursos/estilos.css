@@ -13,6 +13,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+/* Contenido header y letra */
 
 @font-face {
     font-family: OriginTech ;
@@ -84,6 +85,8 @@ body{
      left: 0;
      width: 100%;
  }
+
+ /* contenido scrollers informativos */
  .contenedor,
 .wave-contenedor{
     width: 90%;
@@ -139,6 +142,8 @@ body{
     text-align: justify;
     margin-bottom: 20px;
 }
+
+/* contenido servicios */
 .content-cards {
     display: flex;
     width: 100%;
@@ -180,6 +185,12 @@ body{
     .textos-hero h1{
         text-align: center;
         font-size: 50px;
+    }
+    .Data .Uno{
+        font-family: OriginTech ;
+        src: url(/fonts/OriginTech\ personal\ use.ttf);
+        font-style: normal;
+        font-weight: normal;
     }
     /* estilos generales */
     .titulo{
@@ -243,6 +254,12 @@ body{
     .titulo,
     .textos-hero h1{
         font-size: 30px;
+    }
+    .Data .Uno{
+        font-family: OriginTech ;
+        src: url(/fonts/OriginTech\ personal\ use.ttf);
+        font-style: normal;
+        font-weight: normal;
     }
     .left,
     .right{
