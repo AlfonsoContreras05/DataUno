@@ -16,14 +16,14 @@ body{
 /* Contenido header y letra */
 
 @font-face {
-    font-family: OriginTech ;
+    font-family: "OriginTech" ;
     /* src: url(/fonts/OriginTech\ personal\ use.otf); */
     src: url(/fonts/OriginTech\ personal\ use.ttf);
     font-style: normal;
     font-weight: normal;
 }
 .Data{
-    font-family: OriginTech ;
+    font-family: "OriginTech" ;
     src: url(/fonts/OriginTech\ personal\ use.ttf);
     font-style: italic;
     font-weight: normal;
@@ -32,7 +32,7 @@ body{
 
 }
 .Uno{
-    font-family: OriginTech ;
+    font-family: "OriginTech" ;
     src: url(/fonts/OriginTech\ personal\ use.ttf);
     font-style: italic ;
     font-weight: normal;
@@ -120,8 +120,8 @@ body{
     align-items: center;
 }
 .main-1{
-    font-family: OriginTech ;
-    src: url(./recursos/fonts/OriginTech\ personal\ use.ttf);
+    font-family: "OriginTech" ;
+    src: url(/fonts/OriginTech\ personal\ use.otf);
     font-style: italic;
     font-weight: normal;
 }
