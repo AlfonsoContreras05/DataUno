@@ -293,9 +293,10 @@ footer{
 /* Mapa */
 .map-form{
     display: flex;
-    /* margin: 0 auto; */
+    margin:0 auto;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 .mapa{
     margin: 35px ;
@@ -309,16 +310,17 @@ footer{
 
 /* Formulario */
 #wrapper {
-
 	font-family:verdana;
-	margin: 30px auto ;
+	margin: 30px  ;
 	padding: 30px;
 	background: #4D6879;
 	font-size: 14px;
-	width:100%;
+	width:600px;
+    height: 600%;
 	max-width:500px;
 	box-sizing: border-box;
     border: 3px solid black;
+    
 }
 label {
 	display: block;
