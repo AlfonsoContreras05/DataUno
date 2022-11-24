@@ -264,11 +264,11 @@ footer{
 .icono-social:nth-of-type(2){
     background-image: url(../imagenes/InstagramBlanco.png);
 }
-.icono-social:nth-of-type(3){
+/* .icono-social:nth-of-type(3){
     background-image: url(../imagenes/LinkedinBlanco.png);
-}
-.icono-social:nth-of-type(4){
-    background-image: url(../imagenes/TwitterBlanco.png);
+} */
+.icono-social:nth-of-type(3){
+    background-image: url(../imagenes/w_blanco.png);
 }
 .contenedor-menu-footer{
     display: flex;
