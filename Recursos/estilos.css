@@ -66,7 +66,23 @@ body{
      font-size: 25px;
      margin-bottom: 20px;
 }
- 
+.caja24  { 
+    width: 90%;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff;
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 0 auto ; 
+    overflow: hidden; 
+    padding: 20px; 
+    align-items: center;
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
+}
 .textos-hero a{
      display: inline-block;
      text-decoration: none;
@@ -91,20 +107,25 @@ body{
     overflow: hidden;
     overflow-x:hidden ;
     margin: 45px auto;
-    padding: 0 0 80px 0;
+    /* padding: 0 0 80px 0; */
     box-shadow: 2px 4px 5px rgba(0, 0, 0, .3);
     transform: translateX(400%);
     transition: transform 1s ease;
+    justify-content: center;
+    text-align: center;
 }
 .wave-contenedor-1{
-    width: 90%;
+    width: 40%;
     max-width: 1200px;
     overflow: hidden;
     overflow-x:hidden ;
-    margin: 45px auto;
+    margin: 10px auto;
     padding: 0 0 10px 0;
     border-radius: 15px ;
     border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    
     
 }
 .contenedor-textos-main-1{
@@ -119,6 +140,7 @@ body{
     src: url(/fonts/OriginTech\ personal\ use.otf);
     font-style: italic;
     font-weight: normal;
+    text-align: center;
 }
 .wave-contenedor:nth-last-of-type(even){
     transform: translateX(-400%);
@@ -144,7 +166,7 @@ body{
     font-weight: 300;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0px aut;
     font-family: OriginTech ;
     src: url(./recursos/fonts/OriginTech\ personal\ use.ttf);
     font-style: italic;
