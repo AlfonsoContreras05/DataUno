@@ -535,6 +535,9 @@ label {
     .textos-hero h1{
         font-size: 30px;
     }
+    .textos-hero p{
+        width: 80%;
+    }
     .Data .Uno{
         font-family: OriginTech ;
         src: url(/fonts/OriginTech\ personal\ use.ttf);
