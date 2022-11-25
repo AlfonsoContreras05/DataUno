@@ -67,7 +67,7 @@ body{
      margin-bottom: 20px;
 }
 .caja24  { 
-    width: 90%;
+    max-width: 90%;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
     color: #ffffff;
     font-size: 18px; 
