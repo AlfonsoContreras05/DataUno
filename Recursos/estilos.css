@@ -567,6 +567,7 @@ label {
         justify-content: center;
         
         
+        
     }
 
     .website .wave-contenedor {
@@ -575,5 +576,9 @@ label {
         margin-bottom: 20px;
 
     }
+    .wave-contenedor1 {
+        width: 80%;
+    }
+    
     
 }
