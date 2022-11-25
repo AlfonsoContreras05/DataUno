@@ -83,6 +83,14 @@ body{
     -webkit-border-radius: 35px 0px 35px 0px; 
     border: 2px solid #5878ca;
 }
+#caja1{
+    background: radial-gradient(circle, rgb(22, 61, 255) 34%, rgba(32,70,253,1) 49%, rgba(0,44,255,1) 76%);
+
+}
+#lnegra{
+    color: black;
+    
+}
 .textos-hero a{
      display: inline-block;
      text-decoration: none;
@@ -536,7 +544,7 @@ label {
         font-size: 30px;
     }
     .textos-hero p{
-        width: 80%;
+        font-size: 10px;
     }
     .Data .Uno{
         font-family: OriginTech ;
@@ -572,4 +580,5 @@ label {
         margin-bottom: 20px;
 
     }
+    
 }
