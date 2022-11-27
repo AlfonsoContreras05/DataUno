@@ -29,6 +29,14 @@ body{
 
 
 }
+.bdata{
+    display: flex;
+    float: left;
+    width: 230px;
+    height: 300px;
+    margin: 0 0 25px 0 ;
+    
+}
 .Uno{
     font-family: "OriginTech" ;
     src: url(/fonts/OriginTech\ personal\ use.ttf);
@@ -39,10 +47,10 @@ body{
 }
 
 .hero{
-    /* background: linear-gradient(8deg, rgba(2,0,36,1) 0%, rgba(46,46,182,1) 34%, rgba(0,212,255,1) 85%);*/
+    
      background-image:linear-gradient(8deg, rgba(2,0,36,1) 30%, rgba(46,46,182,0.28895308123249297) 65%, rgba(0,212,255,1) 150%), url("../imagenes/wp3235103.jpg");
      width: 100%;
-     height: 400px;
+     height: 500px;
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -63,8 +71,9 @@ body{
      font-size: 200px;
 }
 .textos-hero p{
-     font-size: 25px;
-     margin-bottom: 20px;
+     font-size: 35px;
+     margin: -75px 0 0 260px;
+     
 }
 .caja24  { 
     max-width: 90%;
@@ -87,10 +96,7 @@ body{
     background: radial-gradient(circle, rgb(22, 61, 255) 34%, rgba(32,70,253,1) 49%, rgba(0,44,255,1) 76%);
 
 }
-#lnegra{
-    color: black;
-    
-}
+
 .textos-hero a{
      display: inline-block;
      text-decoration: none;
@@ -253,22 +259,35 @@ body{
 
 /* Footer */
 footer{
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    padding: 2rem 8%;
-    background: radial-gradient(circle, rgba(63,94,251,1) 34%, rgba(32,70,253,1) 49%, rgba(0,44,255,1) 76%);
+    /* width: 100%; */
+    /* position: relative; */
+    /* bottom: 0;
+    left: 0; */
+    /* padding: 2rem 8%; */
+    /* background: radial-gradient(circle, rgb(100, 154, 234) 34%, rgb(66, 117, 255) 49%, rgb(23, 38, 150) 76%); */
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image:linear-gradient(8deg, rgba(0, 0, 0, 0.529) 30%, rgba(0, 0, 0, 0.471) 65%, rgba(0, 213, 255, 0.611) 150%), url("../imagenes/placa2.jpg");
+    width: 100%;
+    /* background: transparent(); */
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    position: static;
+    overflow: hidden;
+
 }
 .logo{
     height: 80px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     opacity: 1;
+
+
 }
 .contenedor-iconos-redes{
     display: flex;
@@ -295,9 +314,7 @@ footer{
 .icono-social:nth-of-type(2){
     background-image: url(../imagenes/InstagramBlanco.png);
 }
-/* .icono-social:nth-of-type(3){
-    background-image: url(../imagenes/LinkedinBlanco.png);
-} */
+
 .icono-social:nth-of-type(3){
     background-image: url(../imagenes/w_blanco.png);
 }
@@ -320,6 +337,8 @@ footer{
     opacity: 0.3;
     text-align: center;
 }
+
+
 /* Mapa */
 .map-form{
     display: flex;
