@@ -11,8 +11,8 @@ body{
 
 @font-face {
     font-family: "OriginTech" ;
-    /* src: url(/fonts/OriginTech\ personal\ use.otf); */
-    src: url(/fonts/OriginTech\ personal\ use.ttf);
+    src: url(/DataUno/fonts/OriginTech\ personal\ use.otf);
+    /* src: url(/fonts/OriginTech\ personal\ use.ttf); */
     font-style: normal;
     font-weight: normal;
 }
@@ -43,7 +43,6 @@ body{
     
     
 }
-
 .hero{
     
      background-image:linear-gradient(8deg, rgba(2,0,36,1) 30%, rgba(46,46,182,0.28895308123249297) 65%, rgba(0,212,255,1) 150%), url("../imagenes/wp3235103.jpg");
@@ -73,7 +72,7 @@ body{
 }
 .textos-hero p{
      font-size: 35px;
-     margin: -35px 10px 10px 0px;
+     margin: -5px 10px 10px 0px;
      
 }
 .caja24  { 
@@ -464,11 +463,15 @@ label {
         text-align: center;
         font-size: 50px;
     }
-    .Data .Uno{
+    .Data .Uno .bdata{
         font-family: OriginTech ;
         src: url(/fonts/OriginTech\ personal\ use.ttf);
         font-style: normal;
         font-weight: normal;
+    }
+    .bdata{
+        width: 25%;
+        height: 25%;
     }
     /* estilos generales */
     .titulo{
@@ -567,11 +570,15 @@ label {
     .textos-hero p{
         font-size: 10px;
     }
-    .Data .Uno{
+    .Data .Uno .bdata{
         font-family: OriginTech ;
         src: url(/fonts/OriginTech\ personal\ use.ttf);
         font-style: normal;
         font-weight: normal;
+    }
+    .bdata{
+        width: 25%;
+        height: 25%;
     }
     .left,
     .right{
