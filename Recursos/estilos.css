@@ -55,7 +55,7 @@ body{
      position: relative;
      overflow: hidden;
      display: inline-flex;
-     justify-content: stretch;  
+     justify-content: center;  
     
 }
 .textos-hero{
