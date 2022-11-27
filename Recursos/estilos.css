@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-/* html{
-    scroll-behavior: smooth;
-} */
-
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -26,16 +22,15 @@ body{
     font-style: italic;
     font-weight: normal;
     display: flex;
-
-
+    
 
 }
 .bdata{
     display: flex;
-    float: left;
-    width: 50%;
-    height: 100%;
-    margin: 0 0 25px 0 ;
+    margin: 0px 0px 0px 200px;
+    height: 365px;
+    
+
     
 }
 .Uno{
@@ -45,6 +40,7 @@ body{
     font-weight: normal;
     color: blue;
     display: flex;
+    
     
 }
 
@@ -59,6 +55,9 @@ body{
      background-attachment: fixed;
      position: relative;
      overflow: hidden;
+     display: inline-flex;
+     justify-content: stretch;  
+    
 }
 .textos-hero{
     
@@ -74,7 +73,7 @@ body{
 }
 .textos-hero p{
      font-size: 35px;
-     margin: -35px 0 0 260px;
+     margin: -35px 10px 10px 0px;
      
 }
 .caja24  { 
