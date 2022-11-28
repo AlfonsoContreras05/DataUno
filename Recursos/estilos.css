@@ -259,12 +259,6 @@ body{
 
 /* Footer */
 footer{
-    /* width: 100%; */
-    /* position: relative; */
-    /* bottom: 0;
-    left: 0; */
-    /* padding: 2rem 8%; */
-    /* background: radial-gradient(circle, rgb(100, 154, 234) 34%, rgb(66, 117, 255) 49%, rgb(23, 38, 150) 76%); */
 
     display: flex;
     justify-content: center;
@@ -272,11 +266,11 @@ footer{
     flex-direction: column;
     background-image:linear-gradient(8deg, rgba(0, 0, 0, 0.529) 30%, rgba(0, 0, 0, 0.471) 65%, rgba(0, 213, 255, 0.611) 150%), url("../imagenes/placa2.jpg");
     width: 100%;
-    /* background: transparent(); */
-    height: 350px;
+
+    height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
+
     background-attachment: fixed;
     position: static;
     overflow: hidden;
